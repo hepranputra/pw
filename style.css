@@ -1,86 +1,48 @@
 body {
-    margin: 0;
-    padding-bottom: 1000px;
-}
-
-p {
-    margin: 0;
-    font-family: Arial;
-}
-
-.tabs {
-    background-color: orange;
-    display: flex;
-    justify-content: center;
-}
-
-.tab {
-    margin: 8px 48px;
-    padding: 4px 16px;
-    background-color: orange;
+    background-color: green;
     
-}
-
-.tab:active {
-    box-shadow: 0 0 10px rgba(0,0,0, 0.5);
-}
-
-.name-div {
-    background-color: lightgreen;
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
-.name-p {
+p {
+    font-family: Arial;
+    margin: 0;
+}
+
+.main-container {
+    background-color: lightpink;
+    
+    width: 50%;
+    
+}
+
+.header {
+    background-color: lightblue;
+
+    display: flex;
+    justify-content: end;
+}
+
+.tab {
+    background-color: orange;
+
+    /* margin: 0; */
+    margin-right: 16px;
+}
+
+.name {
     font-size: 64px;
 }
 
+.name, .email {
+    display: flex;
+    justify-content: center;
+}
 
-
-/* .tabs { */
-/*     display: grid; */
-/*     grid-template-columns: 1fr 1fr 1fr 1fr; */
-/*     column-gap: 16px; */
-/*     row-gap: 16px; */
-/*     padding-left: 32px; */
-/*     padding-right: 32px; */
-/*     padding-top: 32px; */
-/*  */
-/*     position: fixed; */
-/* } */
-/*  */
-/* @media (max-width: 700px) { */
-/*     .tabs { */
-/*         grid-template-columns: 1fr 1fr; */
-/*     } */
-/* } */
-/*  */
-/* .tab { */
-/*     padding: 36px; */
-/*     background-color: lightgreen; */
-/*     display: flex; */
-/*     justify-content: center; */
-/*     font-family: Arial; */
-/*     font-size: 35px; */
-/*     font-weight: 1000; */
-/*     margin: 0; */
-/* } */
-/*  */
-/* .newsletter { */
-/*     background-color: #fe8a3d; */
-/* } */
-/*  */
-/* .instagram { */
-/*     background-color: #dea6af; */
-/* } */
-/*  */
-/* .facebook { */
-/*     background-color: #5cb6eb; */
-/* } */
-/*  */
-/* .linkedin { */
-/*     background-color: #fed001; */
-/* } */
+.works-h2 {
+    display: inline-block;
+    margin: 8px 0;
+    border-bottom: 1px solid black;
+}
